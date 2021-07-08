@@ -15,8 +15,8 @@ int main(){
   i2 = rand()%6 + 1;
   printf("Die 2 : %d\n",i2);
   printf("Total value: %d\n",i1+i2);
-  if(i1+i2 >= 7)printf("You won!",lan);
-  else printf("You lost!\n",lan);
+  if(i1+i2 >= 7)printf("%s won!",lan);
+  else printf("%s lost!\n",lan);
  
   return 0;
 }
